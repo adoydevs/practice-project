@@ -41,7 +41,10 @@
 // txt = txt.toUpperCase();
 
 
-function myCar(a , b){
-    return a + b;
-}
+// function myCar(a , b){
+//     return a + b;
+// }
 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let size = fruits.length;
+console.log(size);
