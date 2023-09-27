@@ -51,4 +51,9 @@
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Pineapple");
+console.log(fruits[0]);
 console.log(fruits);
+
+const greet = () => "Hello, world!";
+console.log(greet());
+
