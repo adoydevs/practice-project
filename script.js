@@ -45,6 +45,10 @@
 //     return a + b;
 // }
 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let size = fruits.length;
+// console.log(size);
+
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let size = fruits.length;
-console.log(size);
+fruits.push("Pineapple");
+console.log(fruits);
