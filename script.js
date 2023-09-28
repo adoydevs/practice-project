@@ -65,12 +65,27 @@
 //   points[j] = k;
 // }
 
+// let numbers = [45, 4, 9, 16, 25];
+
+// function myFunction(value , index , array) {
+//   console.log(value);
+//   console.log(index);
+//   console.log(array);
+//   console.log(".............");
+// }
+
+// numbers.forEach(myFunction);
+
+
+// Map()
+
 let numbers = [45, 4, 9, 16, 25];
 
-function myFunction(value , index) {
-  console.log(value);
-  console.log(index)
-  console.log(".............");
+function myFunction(value) {
+  return value * 2;
+ 
 }
 
-numbers.forEach(myFunction);
+let newNumbers = numbers.map(myFunction);
+
+console.log(newNumbers);
