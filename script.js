@@ -49,8 +49,28 @@
 // let size = fruits.length;
 // console.log(size);
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.push("Pineapple");
-console.log(fruits[0]);
-console.log(fruits);
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.push("Pineapple");
+// console.log(fruits[0]);
+// console.log(fruits);
 
+
+
+// const points = [40, 100, 1, 5, 25, 10];
+
+// for (let i = points.length -1; i > 0; i--) {
+//   let j = Math.floor(Math.random() * (i+1));
+//   let k = points[i];
+//   points[i] = points[j];
+//   points[j] = k;
+// }
+
+let numbers = [45, 4, 9, 16, 25];
+
+function myFunction(value , index) {
+  console.log(value);
+  console.log(index)
+  console.log(".............");
+}
+
+numbers.forEach(myFunction);
