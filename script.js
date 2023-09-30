@@ -79,13 +79,18 @@
 
 // Map()
 
-let numbers = [45, 4, 9, 16, 25];
+// let numbers = [45, 4, 9, 16, 25];
 
-function myFunction(value) {
-  return value * 2;
+// function myFunction(value) {
+//   return value * 2;
  
-}
+// }
 
-let newNumbers = numbers.map(myFunction);
+// let newNumbers = numbers.map(myFunction);
 
-console.log(newNumbers);
+// console.log(newNumbers);
+
+
+let text = "HELLO WORLD";
+let char = text.charAt(3);
+console.log(char);
